@@ -71,6 +71,10 @@ h6 {
   overflow-x: hidden;
 } */
 
+.bg_col{
+background-color: #ceb788;
+border-radius: 80%;
+}
 
 
 p {

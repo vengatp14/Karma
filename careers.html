@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="overflow-x: hidden;">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8" style="overflow-x: hidden;"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link
@@ -24,6 +24,7 @@
     />
     <link rel="stylesheet" href="./Govern.css" />
     <link rel="stylesheet" href="index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <style>
       .btn {
         margin-top: 30px;
@@ -98,7 +99,7 @@
       </div>
     </nav>
 
-    <div class="container px-5">
+    <div class="container px-5 " data-aos-duration="1500" data-aos="zoom-out-up">
       <h1
         class="text-center"
         style="
@@ -114,17 +115,17 @@
 
       <form action="" style="margin-top: 100px">
         <div class="form-group">
-          <h3 style="font-weight: 900; text-transform: none">
+          <h3 style="font-weight: 900; text-transform: none" data-aos-duration="1500" data-aos="zoom-out-up">
             Personal Information
           </h3>
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos-duration="1500" data-aos="zoom-out-up" >
               <label for="fname" class="form-label "
                 ><span class="text_font">First Name</span> <span class="text-danger">*</span></label
               >
               <input type="text" class="form-control" id="fname" required />
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos-duration="1500" data-aos="zoom-out-up">
               <label for="lname" class="form-label text_font"
                 >Last Name <span class="text-danger">*</span></label
               >
@@ -132,19 +133,19 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos-duration="1500" data-aos="zoom-out-up">
               <label for="dob" class="form-label text_font"
                 >Date Of Birth <span class="text-danger">*</span></label
               >
               <input type="text" class="form-control" id="dob" required />
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos-duration="1500" data-aos="zoom-out-up">
               <label for="email" class="form-label text_font"
                 >Email <span class="text-danger">*</span></label
               >
               <input type="email" class="form-control" id="email" required />
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos-duration="1500" data-aos="zoom-out-up">
               <label for="phone" class="form-label text_font"
                 >Phone <span class="text-danger">*</span></label
               >
@@ -152,7 +153,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12" data-aos-duration="1500" data-aos="zoom-out-up">
               <label for="add1" class="form-label text_font"
                 >Address - 1 <span class="text-danger">*</span></label
               >
@@ -160,7 +161,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12" data-aos-duration="1500" data-aos="zoom-out-up">
               <label for="add2" class="form-label text_font"
                 >Address - 2 <span class="text-danger">*</span></label
               >
@@ -168,19 +169,19 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos-duration="1500" data-aos="zoom-out-up">
               <label for="city" class="form-label text_font"
                 >City  <span class="text-danger">*</span></label
               >
               <input type="text" class="form-control" id="city" required />
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos-duration="1500" data-aos="zoom-out-up">
               <label for="state" class="form-label text_font"
                 >Us State <span class="text-danger">*</span></label
               >
               <input type="text" class="form-control" id="state" required />
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos-duration="1500" data-aos="zoom-out-up">
               <label for="zip" class="form-label text_font"
                 >Zip <span class="text-danger">*</span></label
               >
@@ -188,7 +189,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12" data-aos-duration="1500" data-aos="zoom-out-up">
               <label for="position" class="form-label text_font"
                 >Position Aplying For <span class="text-danger">*</span></label
               >
@@ -196,12 +197,12 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12" data-aos-duration="1500" data-aos="zoom-out-up">
               <label for="reff" class="form-label text_font">Reffered By </label>
               <input type="text" class="form-control" id="reff" />
             </div>
           </div>
-          <label for="citizan" class="text_font">Are you a U.S. Citizen? </label>
+          <label data-aos-duration="1500" data-aos="zoom-out-up" for="citizan" class="text_font">Are you a U.S. Citizen? </label>
           <div class="form-check">
             <input
               class="form-check-input"
@@ -223,7 +224,7 @@
             <label class="form-check-label choose_text" for="citizanno"> No </label>
           </div>
 
-          <label for="work" class="text_font"
+          <label data-aos-duration="1500" data-aos="zoom-out-up" for="work" class="text_font"
             >If no, are you authorized to work in the United States? </label
           >
           <div class="form-check">
@@ -246,7 +247,7 @@
             />
             <label class="form-check-label choose_text" for="workno"> No </label>
           </div>
-          <label for="company" class="text_font">Have you ever worked for this company? </label>
+          <label data-aos-duration="1500" data-aos="zoom-out-up" for="company" class="text_font" >Have you ever worked for this company? </label>
           <div class="form-check">
             <input
               class="form-check-input"
@@ -268,12 +269,12 @@
             <label class="form-check-label choose_text" for="companyno"> No </label>
           </div>
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12" data-aos-duration="1500" data-aos="zoom-out-up">
               <label for="when" class="form-label text_font">If so, when?</label>
               <input type="text" class="form-control" id="when" />
             </div>
           </div>
-          <label for="felony" class="text_font">Have you ever been convicted of a felony? </label>
+          <label data-aos-duration="1500" data-aos="zoom-out-up" for="felony" class="text_font">Have you ever been convicted of a felony? </label>
           <div class="form-check">
             <input
               class="form-check-input"
@@ -294,20 +295,20 @@
             />
             <label class="form-check-label choose_text" for="felonyno"> No </label>
           </div>
-          <h4>EDUCATION</h4>
+          <h4 data-aos-duration="1500" data-aos="zoom-out-up">EDUCATION</h4>
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12"  data-aos-duration="1500" data-aos="zoom-out-up">
               <label for="hr" class="form-label text_font">High School</label>
               <input type="text" class="form-control" id="hr" />
             </div>
           </div>
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12"  data-aos-duration="1500" data-aos="zoom-out-up">
               <label for="add" class="form-label text_font">Address</label>
               <input type="text" class="form-control" id="add" />
             </div>
           </div>
-          <label for="graduate" class="text_font">Did you graduate HS? </label>
+          <label for="graduate" class="text_font" data-aos-duration="1500" data-aos="zoom-out-up">Did you graduate HS? </label>
           <div class="form-check">
             <input
               class="form-check-input"
@@ -329,24 +330,24 @@
             <label class="form-check-label choose_text" for="graduateno"> No </label>
           </div>
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12" data-aos-duration="1500" data-aos="zoom-out-up">
               <label for="when1" class="form-label text_font">If so, when?</label>
               <input type="text" class="form-control" id="when1" />
             </div>
           </div>
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12" data-aos-duration="1500" data-aos="zoom-out-up">
               <label for="college" class="form-label text_font">College</label>
               <input type="text" class="form-control" id="college" />
             </div>
           </div>
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12" data-aos-duration="1500" data-aos="zoom-out-up">
               <label for="add3" class="form-label text_font">Address</label>
               <input type="text" class="form-control" id="add3" />
             </div>
           </div>
-          <label for="clg" class="text_font">Did you graduate College? </label>
+          <label for="clg" class="text_font" data-aos-duration="1500" data-aos="zoom-out-up">Did you graduate College? </label>
           <div class="form-check">
             <input
               class="form-check-input"
@@ -368,32 +369,32 @@
             <label class="form-check-label choose_text" for="clgno"> No </label>
           </div>
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12" data-aos-duration="1500" data-aos="zoom-out-up">
               <label for="when3" class="form-label text_font">If so, when?</label>
               <input type="text" class="form-control" id="when3" />
             </div>
           </div>
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12" data-aos-duration="1500" data-aos="zoom-out-up">
               <label for="degree" class="form-label text_font">Degree</label>
               <input type="text" class="form-control" id="degree" />
             </div>
           </div>
-          <h4>Work History</h4>
+          <h4 data-aos-duration="1500" data-aos="zoom-out-up">Work History</h4>
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12" data-aos-duration="1500" data-aos="zoom-out-up">
               <label for="job" class="form-label text_font">Previous Job Title</label>
               <input type="text" class="form-control" id="job" />
             </div>
           </div>
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos-duration="1500" data-aos="zoom-out-up">
               <label for="datejob" class="form-label text_font"
                 >Date Previous Job Started</label
               >
               <input type="text" class="form-control" id="datejob" />
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos-duration="1500" data-aos="zoom-out-up">
               <label for="jobend" class="form-label text_font"
                 >Date Previous Job Ended</label
               >
@@ -401,7 +402,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12" data-aos-duration="1500" data-aos="zoom-out-up">
               <label for="des" class="form-label text_font"
                 >Previous Job Description </label
               >
@@ -416,19 +417,19 @@
           </div>
           <h4>Work History 2</h4>
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12" data-aos-duration="1500" data-aos="zoom-out-up">
               <label for="job1" class="form-label text_font">Previous Job Title</label>
               <input type="text" class="form-control" id="job1" />
             </div>
           </div>
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos-duration="1500" data-aos="zoom-out-up">
               <label for="datejob1" class="form-label text_font"
                 >Date Previous Job Started</label
               >
               <input type="text" class="form-control" id="datejob1" />
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos-duration="1500" data-aos="zoom-out-up">
               <label for="jobend1" class="form-label text_font"
                 >Date Previous Job Ended</label
               >
@@ -436,7 +437,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12" data-aos-duration="1500" data-aos="zoom-out-up">
               <label for="des1" class="form-label text_font"
                 >Previous Job Description </label
               >
@@ -451,36 +452,36 @@
           </div>
           <h4>References</h4>
           <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8" data-aos-duration="1500" data-aos="zoom-out-up">
               <label for="reff1" class="form-label text_font">Reference 1</label>
               <input type="text" class="form-control" id="reff1" />
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos-duration="1500" data-aos="zoom-out-up">
               <label for="reffph" class="form-label text_font">Reference 1 Phone</label>
               <input type="text" class="form-control" id="reffph" />
             </div>
           </div>
           <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8" data-aos-duration="1500" data-aos="zoom-out-up">
               <label for="reff2" class="form-label text_font">Reference 2</label>
               <input type="text" class="form-control" id="reff2" />
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos-duration="1500" data-aos="zoom-out-up">
               <label for="reffph2" class="form-label text_font">Reference 2 Phone</label>
               <input type="text" class="form-control" id="reffph2" />
             </div>
           </div>
           <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8" data-aos-duration="1500" data-aos="zoom-out-up">
               <label for="reff3" class="form-label text_font">Reference 3</label>
               <input type="text" class="form-control" id="reff3" />
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos-duration="1500" data-aos="zoom-out-up">
               <label for="reffph3" class="form-label text_font">Reference 3 Phone</label>
               <input type="text" class="form-control" id="reffph3" />
             </div>
           </div>
-          <label for="upload" class="form-label text_font">Upload Resume</label>
+          <label for="upload" class="form-label text_font" data-aos-duration="1500" data-aos="zoom-out-up">Upload Resume</label>
           <input type="file" name="upload" id="upload" class="form-control" />
           <button type="submit" class="btn mb-4 text_font">Submit</button>
         </div>
@@ -493,13 +494,13 @@
   >
     <div class="container-fluid">
       <div class="row" >
-        <div class="col-md-7">
+        <div class="col-md-7" data-aos-duration="1500" data-aos="zoom-out-up">
           <h1 class="font_footer">
             Looking for a quality paving and concrete expert for your next
             project?
           </h1>
         </div>
-         <div class="col-md-5 ">
+         <div class="col-md-5 " data-aos-duration="1500" data-aos="zoom-out-up">
         <p class="font_sub_footer mt-5 pt-5 text-end">Request an Estimate</p>
       </div>
       </div>
@@ -519,5 +520,7 @@
     </div>
   </div>
  </div>
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script src="js/main.js"></script>
   </body>
 </html>

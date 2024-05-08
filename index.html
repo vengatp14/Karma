@@ -1,5 +1,5 @@
 <!DOCTYPE html >
-<html lang="en" >
+<html lang="en" style="overflow-x: hidden;">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,6 +23,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./index.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body >
     <nav class="navbar navbar-expand-lg">
@@ -92,8 +93,11 @@
         width="100%"
         height="100%"
         style="object-fit: cover;"
+        data-aos="zoom-out"
       />
-      <div class="homeImg">
+      <div class="homeImg" data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500">
         <h1 class="kdam-thmor-pro-regular">KARMA</h1>
         <p class="koulen-regular">PAVING | CONSTRUCTION | UTILITY</p>
         <p class="p kreon-uniquifier" >rebuilding with diversity</p>
@@ -102,7 +106,7 @@
     <div class="secBox">
       <div class="container-fluid">
         <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6" data-aos="zoom-out-up" data-aos-duration="1500">
           <div class="card">
             <h6 class="card-tittle koulen-regular_tittle">
               We are the experts for Govt and utility work.
@@ -124,7 +128,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6" data-aos="zoom-out-up"  data-aos-duration="1500">
           <div class="card">
             <h6 class="card-tittle">
               We are the experts for Retail and general contractors work.
@@ -151,7 +155,7 @@
     </div>
     <div class="container-fluid three" style="background-color: #e4e4e4d1">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="zoom-out-up" data-aos-duration="1500">
           <div class="card">
             <div class="card-body">
               <h3 class="card-tittle">
@@ -176,7 +180,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="zoom-out-up" data-aos-duration="1500">
           <div class="card">
             <div class="card-body">
               <h3 class="card-tittle">
@@ -200,7 +204,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="zoom-out-up" data-aos-duration="1500">
           <div class="card">
             <div class="card-body">
               <h3 class="card-tittle">
@@ -228,7 +232,7 @@
     <div class="container-fluid box4" style="padding: 50px 40px">
       <h1>Where We Work</h1>
       <div class="row" style="padding: 20px; background-color: #e4e4e4d1">
-        <div class="col-md-6 d-flex justify-content-center align-items-center">
+        <div class="col-md-6 d-flex justify-content-center align-items-center" data-aos="zoom-out-up" data-aos-duration="1500">
           <p>
             Karma is proud to serve the state of Alabama. Our team is based here
             and dedicated to delivering quality paving, construction, and
@@ -237,7 +241,7 @@
             in.
           </p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6" data-aos="zoom-out-up" data-aos-duration="1500">
           <div class="imgDiv">
             <img src="./img/karma.png" width="100%" height="100%" alt="" />
           </div>
@@ -250,14 +254,14 @@
     >
       <div class="container-fluid">
         <div class="row" >
-          <div class="col-md-7">
+          <div class="col-md-7" data-aos="zoom-out-up" data-aos-duration="1500">
             <h1 class="font_footer">
               Looking for a quality paving and concrete expert for your next
               project?
             </h1>
           </div>
            <div class="col-md-5 ">
-          <p class="font_sub_footer mt-5 pt-5 text-end">Request an Estimate</p>
+          <p class="font_sub_footer mt-5 pt-5 text-end" data-aos="zoom-out-up" data-aos-duration="1500">Request an Estimate</p>
         </div>
         </div>
       </div>
@@ -276,5 +280,8 @@
       </div>
     </div>
    </div>
+
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script src="js/main.js"></script>
   </body>
 </html>
